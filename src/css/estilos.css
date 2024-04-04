@@ -1,0 +1,109 @@
+body {
+  background: rgba(0,0,0,  0.7) url(../imagens/fundo.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.texto {
+  position: absolute;
+  width: 100%;
+  margin-left: 30%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.texto h1,h2 {
+  stroke: black solid 50px;
+  padding: 40px;
+  padding-left: 10px;
+  margin-left: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+.hi-slide{
+  position:absolute;
+  width:754px;
+  height: 292px;
+  margin: 115px auto 0;
+  margin-left: 600px;
+  margin-top: 300px;
+}
+
+.hi-slide .hi-next,.hi-slide .hi-prev{
+  position:absolute;
+  top:50%;
+  width:40px;
+  height:80px;
+  margin-top: -40px;
+  border-radius:5px;
+  line-height:80px;
+  text-align:center;
+  cursor:pointer;
+  background-color:#666;
+  color:#fff;
+  opacity: 0.7;
+  transition: all 2.6s;
+  font-size:30px
+}
+
+.hi-slide .hi-next:hover,.hi-slide .hi-prev:hover{
+  opacity:1;background-color:#444
+}
+
+
+.hi-slide .hi-prev{
+  left:-60px
+}
+
+
+.hi-slide .hi-prev::before{
+  content:'<'
+}
+.hi-slide .hi-next{
+  right:-60px
+}
+
+.hi-slide .hi-next::before{
+  content:'>'
+}
+
+
+.hi-slide > ul{
+  list-style:none;
+  position:relative;
+  width:754px;
+  height:292px;
+  margin:0;
+  padding:0
+}
+
+.hi-slide>ul>li{
+  overflow:hidden;
+  position:absolute;
+  z-index:0;
+  left:377px;
+  top:146px;
+  width:0;
+  height:0;
+  margin:0;
+  padding:0;
+  border:2px solid #fff;
+  border-radius:5px;
+  background-color:#333;
+  cursor:pointer
+}
+
+.hi-slide>ul>li>img {
+    width:100%;
+    height:100%
+  }
+
+  .slide .hi-slide {
+    position: absolute;
+    margin-top: 200px;
+  }

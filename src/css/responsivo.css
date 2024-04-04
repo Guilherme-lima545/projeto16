@@ -1,0 +1,33 @@
+@media (max-width: 1440px) {
+
+        body{ 
+            background-size: cover;
+            width: 100%;
+        }
+    .hi-slide{
+        display: flex;
+       margin-left: 122px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        background-size: cover;
+        
+    }
+
+    .hi-slide {
+        margin-left: 20px;
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    body {
+        width: 1080px;
+        height: 2400px;
+        background-size: cover;
+    }
+}
