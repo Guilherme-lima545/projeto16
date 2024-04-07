@@ -31,3 +31,11 @@
         background-size: cover;
     }
 }
+
+@media (max-width: 428px) {
+     .texto h2 {
+        margin-top: 300px;
+     }
+
+
+}
