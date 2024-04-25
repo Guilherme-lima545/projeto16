@@ -31,6 +31,7 @@
             { $zIndex: 1, width: 120, height: 150, top: 69, left: 500, $opacity: 0.2 },
             { $zIndex: 1, width: 120, height: 150, top: 69, left: 500, $opacity: 0.2 },
             { $zIndex: 1, width: 120, height: 150, top: 69, left: 500, $opacity: 0.2 },
+            { $zIndex: 1, width: 120, height: 150, top: 69, left: 500, $opacity: 0.2 },
            
             
         ];
